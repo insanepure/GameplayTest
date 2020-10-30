@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Rendering">
+      <UniqueIdentifier>{9297b894-49ef-4e8d-90c0-3d3b682fec26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Rendering">
+      <UniqueIdentifier>{6053448a-12f0-4b58-9cda-52bff5f0b09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\gameplay">
+      <UniqueIdentifier>{50238e5b-e77e-4c3b-b868-62cbde01f189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\gameplay">
+      <UniqueIdentifier>{b2e6003d-8974-444b-9228-911cbbda7f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\pathfinding">
+      <UniqueIdentifier>{83496959-7b07-45ae-86e8-209baf4fbbe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\pathfinding">
+      <UniqueIdentifier>{5d29e211-f685-4104-87f1-e648d0192a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\network">
+      <UniqueIdentifier>{aa8b76df-c369-4fe5-97aa-1081f7195486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\network">
+      <UniqueIdentifier>{9e47cb2b-3ac9-4753-b9e3-be4a25ac223a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Quelldateien\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>Quelldateien\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>Quelldateien\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Quelldateien\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Quelldateien\gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="grid.cpp">
+      <Filter>Quelldateien\gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Quelldateien\gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="astar.cpp">
+      <Filter>Quelldateien\pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>Quelldateien\network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\camera.h">
+      <Filter>Headerdateien\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\font.h">
+      <Filter>Headerdateien\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\image.h">
+      <Filter>Headerdateien\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\window.h">
+      <Filter>Headerdateien\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enemy.h">
+      <Filter>Headerdateien\gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\grid.h">
+      <Filter>Headerdateien\gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player.h">
+      <Filter>Headerdateien\gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scene.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\astar.h">
+      <Filter>Headerdateien\pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="include\network.h">
+      <Filter>Headerdateien\network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
